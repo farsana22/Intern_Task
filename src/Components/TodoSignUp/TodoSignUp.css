@@ -1,0 +1,167 @@
+.todo-signup-component {
+    position: absolute;
+    height: 350px;
+    width: 700px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgb(255, 201, 201);
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 767px) {
+    .todo-signup-component {
+        width: 280px;
+        height: 40%;
+        padding: 75px 30px;
+        box-shadow: 0px 1px 3px rgb(236, 236, 236);
+    }
+}
+
+.todo-signup-left {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .todo-signup-left {
+        display: none;
+    }
+}
+
+.todo-signup-image {
+    height: 15rem;
+}
+
+.todo-signup-right {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.signup-input {
+    display: flex;
+    width: 280px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .signup-input {
+        width: 248px;
+    }
+}
+
+.signup-input-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-hr {
+    height: 100%;
+    /* Adjust the height as per your requirement */
+    border: none;
+    border-left: 1px solid #d3d3d3;
+    /* Change the color as desired */
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .vertical-hr {
+        display: none;
+    }
+}
+
+.signup {
+    width: 275px;
+    padding: 7px 5px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+    background-color: rgb(255, 52, 52);
+    border: 1px solid rgb(255, 163, 163);
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 767px) {
+    .signup {
+        width: 247px;
+    }
+}
+
+.signup-loading {
+    width: 275px;
+    padding: 7px 5px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+    background-color: rgb(255, 226, 226);
+    border: 1px solid rgb(255, 163, 163);
+    font-size: 20px;
+    color: #ff0000;
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 767px) {
+    .signup-loading {
+        width: 247px;
+    }
+}
+
+.loading {
+    background-color: #ffffff;
+    color: red;
+    font-size: 16px;
+}
+
+.signup-title-name {
+    font-size: 25px;
+}
+
+.signup:active {
+    transform: scale(0.9);
+}
+
+.sign-nav {
+    font-size: 13px;
+}
+
+.ey-icon {
+    cursor: pointer;
+}
+
+.sign-high {
+    font-size: 14px;
+    color: red;
+    cursor: pointer;
+}

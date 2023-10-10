@@ -1,0 +1,143 @@
+.todo-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 5px 19px;
+    margin-top: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+    .todo-item-container {
+        padding: 4px 7px;
+        gap: 10px;
+    }
+}
+
+.hr-todo {
+    border: none;
+    height: 1px;
+    margin-top: 12px;
+    margin: 5px 10px 0 5px;
+    background-color: rgb(224, 224, 224);
+}
+
+.todo-item-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+.todo-item-center {
+    flex: 10;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.todo-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.title-complete {
+    display: flex;
+    text-align: start;
+    left: 0;
+    font-family: 'lato';
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    line-height: 1.71;
+    letter-spacing: 1.24px;
+    -webkit-tap-highlight-color: transparent !important;
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width: 767px) {
+    .title-complete {
+        font-size: 13px;
+    }
+}
+.title{
+    display: flex;
+    text-align: start;
+    left: 0;
+    font-family: 'lato';
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    line-height: 1.71;
+    letter-spacing: 1.24px;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .title {
+        font-size: 19px;
+    }
+}
+
+
+.todo-time-row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .todo-time-row {
+        gap: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.time {
+    top: 0;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    line-height: 1.71;
+    letter-spacing: 1.24px;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .time {
+        font-size: 7px;
+    }
+}
+
+.todo-item-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+.complete {
+    cursor: pointer;
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+    .complete {
+        font-size: 20px;
+    }
+}
+
+.delete {
+    display: flex;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .delete {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,40 @@
+.todo {
+    height: 100vh;
+    position: relative;
+}
+
+.bg-container {
+    height: 40vh;
+    width: 100vw;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .bg-container {
+        height: 35vh
+    }
+}
+.bg-image {
+    display: block;
+    object-fit: cover;
+    width: 100vw;
+    height: 16rem;
+}
+
+@media screen and (max-width: 767px) {
+    .bg-image {
+        height: 20rem;
+    }
+}
+
+
+/* .bg-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent, rgba(255, 0, 0, 0.63));
+    background-blend-mode: multiply;
+} */
